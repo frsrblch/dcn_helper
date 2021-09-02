@@ -1,0 +1,10 @@
+[package]
+name = "dcn_helper"
+version = "0.1.0"
+authors = ["Fraser Balch <farseer.ulwithy@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+chrono = "0.4.6"
+calamine = "0.18.0"
+oem_types = { git = "https://github.com/frsrblch/oem_types" }
