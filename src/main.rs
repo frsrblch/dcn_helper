@@ -1,4 +1,4 @@
-#![feature(iter_intersperse, option_result_contains, path_try_exists)]
+#![feature(option_result_contains, path_try_exists)]
 
 use calamine::{open_workbook, Reader, Xlsx};
 use oem_types::work_order::*;
